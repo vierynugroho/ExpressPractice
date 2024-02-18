@@ -1,0 +1,27 @@
+{
+	"name": "expresspractice",
+	"version": "1.0.0",
+	"description": "learn restAPI express and Postgres",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "nodemon src/index.js"
+	},
+	"keywords": [
+		"restAPI",
+		"express",
+		"and",
+		"postgres"
+	],
+	"author": "Viery Nugroho",
+	"license": "ISC",
+	"dependencies": {
+		"@prisma/client": "^5.9.1",
+		"dotenv": "^16.4.4",
+		"express": "^4.18.2",
+		"nodemon": "^3.0.3"
+	},
+	"devDependencies": {
+		"prisma": "^5.9.1"
+	}
+}
